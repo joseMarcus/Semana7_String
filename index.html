@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Semana 7 - Exercício - Javascript String</title>
+    </head>
+    <body style="font-size: 100%; margin: 100px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: rgb(154, 148, 240);" bgcolor="black">
+        <div style="background-color: rgb(36, 17, 114);"><center><h1>Gerador de Lista</h1></center></div>
+        <p>Crie uma função que gere uma lista em HTML com as tags <mark>&lt;ul&gt;</mark> e <mark>&lt;li&gt;</mark>, 
+           e que a quantidade de itens seja definida por parâmetro. Então ao chamar <mark>createList(3)</mark> 
+           o resultado deve ser: <br>
+            <div style="background-color: rgb(36, 17, 114); max-width: 130px;">
+                &lt;ul&gt;
+                    <br>&emsp;&lt;li&gt; Text 1 &lt;/li&gt;
+                    <br>&emsp;&lt;li&gt; Text 2 &lt;/li&gt;
+                    <br>&emsp;&lt;li&gt; Text 3 &lt;/li&gt;
+                <br>&lt;/ul&gt;
+            </div>
+            <br> Contudo o texto do item pode ser alterado usando o segundo parâmetro. Caso a chamada seja 
+            <mark>createList(5, "Item")</mark>, então o retorno será: <br>
+            <br>
+            <div style="background-color: rgb(36, 17, 114); max-width: 135px;">&lt;ul&gt;
+                <br>&emsp;&lt;li&gt; Item 1 &lt;/li&gt;
+                <br>&emsp;&lt;li&gt; Item 2 &lt;/li&gt;
+                <br>&emsp;&lt;li&gt; Item 3 &lt;/li&gt;
+                <br>&emsp;&lt;li&gt; Item 4 &lt;/li&gt;
+                <br>&emsp;&lt;li&gt; Item 5 &lt;/li&gt;
+                <br>&lt;/ul&gt;
+            </div>
+        </p>
+        <h2>Gerador de Lista: TESTE NO HTML</h2>
+        <input type="text" id="inputext" placeholder="Quantidade">
+        <input type="text" id="inputext2" placeholder="Texto"> 
+        <button id="btn">Gerar Lista</button>
+        <ul class = "lista"></ul>
+        <script src = "index.js"></script>    
+    </body>
+</html>
